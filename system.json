@@ -62,6 +62,6 @@
   },
   "license": "LICENSE.txt",
   "url": "https://github.com/PureConcentratedSpite/abfalter",
-  "manifest": "https://raw.githubusercontent.com/PureConcentratedSpite/abfalter/Test/system.json",
+  "manifest": "https://raw.githubusercontent.com/PureConcentratedSpite/abfalter/Testv2/system.json",
   "download": "https://github.com/PureConcentratedSpite/abfalter/archive/refs/tags/v0.0.1t.zip"
 }
