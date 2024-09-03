@@ -420,16 +420,16 @@
                 <div>
                     <label> <span> {{localize "abfalter.basicInfo.base"}} </span> <input type="number" name="system.combatValues.attack.base" value="{{system.combatValues.attack.base}}" /> </label>
                     <label> <span> {{localize "abfalter.basicInfo.class"}} </span> <input type="number" name="system.combatValues.attack.class" value="{{system.combatValues.attack.class}}" readonly /> </label>
-                    <label> <span> {{localize "abfalter.basicInfo.spec"}} </span> <input type="number" name="system.combatValues.attack.special" value="{{system.combatValues.attack.special}}" /> </label>
                 </div>
                 {{/if}}
-                <div>
-                    <label> <span> {{localize "abfalter.basicInfo.temp"}} </span> <input type="number" name="system.combatValues.attack.temp" value="{{system.combatValues.attack.temp}}" /> </label>
-                    <label> <span> {{localize "abfalter.basicInfo.final"}} </span> <input type="number" name="system.combatValues.attack.final" value="{{system.combatValues.attack.final}}" readonly /> </label>
-                    <button type="button" class="combatRoll" data-roll="{{system.combatValues.attack.final}}" data-label="{{localize "abfalter.basicInfo.attack"}}" data-type="combatRoll">
-                        <span> <i class="fas fa-dice-d20"></i> </span>
-                    </button>
-                </div>
+            <div>
+                <label> <span> {{localize "abfalter.basicInfo.spec"}} </span> <input type="number" name="system.combatValues.attack.special" value="{{system.combatValues.attack.special}}" /> </label>
+                <label> <span> {{localize "abfalter.basicInfo.temp"}} </span> <input type="number" name="system.combatValues.attack.temp" value="{{system.combatValues.attack.temp}}" /> </label>
+                <label> <span> {{localize "abfalter.basicInfo.final"}} </span> <input type="number" name="system.combatValues.attack.final" value="{{system.combatValues.attack.final}}" readonly /> </label>
+                <button type="button" class="combatRoll" data-roll="{{system.combatValues.attack.final}}" data-label="{{localize "abfalter.basicInfo.attack"}}" data-type="combatRoll">
+                    <span> <i class="fas fa-dice-d20"></i> </span>
+                </button>
+            </div>
             </div> <!--Attack-->
 
             <div class="atkdef">
